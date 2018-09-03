@@ -16,10 +16,11 @@ in APT. Royale SMC has been tested with boost version 1.67.
 To install necessary prereqs on Ubuntu, run:
 
 ```
-sudo apt install build-essential g++ libboost-dev
+sudo apt install build-essential g++ libmlpack-dev
 ```
 
-Royale SMC uses Boost, but only the header-only parts.
+Royale SMC uses Boost, including `boost_system`, `boost_filesystem`, and
+`boost_coroutine` shared libraries.
 
 Clone the Royale SMC git repository, including submodules:
 
